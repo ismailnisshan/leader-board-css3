@@ -36,7 +36,7 @@ main {
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 30px
+    grid-row-gap: 30px;
 }
 
 .player {
@@ -136,12 +136,13 @@ hr {
 -------------- */
 
 /* mobile devices */
-@media only screen and (max-width:688px) {
+
+ /* @media screen and (max-width:688px) {
     .container{
         width: 100%;
     }
     .players{
-        /* background-color:red; */
+         
         grid-template-columns: 1fr;
     
     }
@@ -164,31 +165,24 @@ hr {
 .title, .title1{
     margin-left: 30px;
 
-}
+} */
 /* tablet devices */
 @media only screen and (min-width:688px) and (max-width:992px) {
     .players{
         width: 100%;
         grid-template-columns: 1fr 1fr;
-      /* align-items: center; */
-      /* margin-left: 100px; */
     }
     .container{
      width: 100%;
     }
-    .player{
-      
-    }
+
     .blogs, .courses{
         grid-template-columns: 1fr 1fr;
         width: 100%;
-        
-     
-     
     }
     .title, .title1{
         text-align: center;
     }
     
 
-}
+} 
